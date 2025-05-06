@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<%- include('./layout/headTag'); %>
+
+    <body>
+        
+        <div id="mainDiv">
+
+            <%- include('./layout/header'); %>
+
+            <main>
+
+                <form action="/signup" method="post">
+
+                    <div>
+
+                        <h2>Signup </h2>
+
+                    </div>
+
+                    <div>
+
+                        <label for="email">Enter your email : </label> 
+                        <input type="email" name="email" id="email">
+
+                    </div>
+
+                    <div>
+
+                        <label for="password">Enter Your password</label> 
+                        <input type="password" name="password" id="password">
+
+                    </div>
+
+                    <div>
+                        <button type="submit">Signup</button>
+                    </div>
+
+                </form>
+
+            </main>
+
+            <%- include('./layout/footer'); %>
+
+        </div>
+
+    </body>
+
+</html>
