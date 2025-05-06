@@ -4,17 +4,6 @@ This repository contains practical implementations of user authentication and au
 
 ---
 
-## 📁 Folder Structure
-authentication/
-├── using-mongoDB/
-│ ├── passport-local/
-│ ├── passport-google/
-│ └── jwt/
-├── using-postgreSQL/
-│ └── passport-local/
-
----
-
 ## 🚀 Technologies Used
 
 - **Node.js** & **Express.js**
